@@ -36,7 +36,7 @@ jobs:
 
       - uses: actions/setup-python@v6
         with:
-          python-version: "3.13"  # match the Lambda runtime in cfn/template.yaml
+          python-version: "3.14"  # match the Lambda runtime in cfn/template.yaml
 
       - name: Package Lambda
         working-directory: lambda
