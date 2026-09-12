@@ -48,7 +48,7 @@ jobs:
             type=sha,format=long
 
       # Pull requests build both architectures but publish nothing.
-      - uses: docker/build-push-action@v6
+      - uses: docker/build-push-action@v7
         with:
           context: docker
           platforms: linux/amd64,linux/arm64
